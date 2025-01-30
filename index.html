@@ -46,68 +46,75 @@
 <body>
 
     <!-- Navbar  -->
-    <div class="container mx-auto py-4 px-4 lg:px-8 navbar poppins">
-        <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
+    <div class="py-4 px-4 lg:px-8">
+        <div class="container mx-auto navbar poppins">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow  text-gray-500">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
                 </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow  text-gray-500">
+                <a class="hover:cursor-pointer"><img src="./images/logo2.png" alt="Logo" class="h-10 w-auto"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-gray-500">
                     <li><a>Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Cases</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li class=""><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
             </div>
-            <a class="hover:cursor-pointer"><img src="./images/logo2.png" alt="Logo" class="h-10 w-auto"></a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-gray-500">
-                <li><a>Home</a></li>
-                <li class=""><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
-            </ul>
-        </div>
-        <div class="navbar-end">
-            <a class="btn btn-xs sm:btn-sm md:btn-md lg:btn text-white bg-brown border-0">Free Consultation</a>
+            <div class="navbar-end">
+                <a class="btn btn-xs sm:btn-sm md:btn-md lg:btn text-white bg-brown border-0">Free Consultation</a>
+            </div>
         </div>
     </div>
+
 
 
     <!-- banner  -->
-    <div class="container mx-auto h-full hero  rounded-lg text-neutral-content text-center"
-        style="background: linear-gradient(180.00deg,rgba(17, 17, 17, 0), rgb(17, 17, 17) 100%), url('./images/banner.png'); background-size: cover; background-position: center;">
-        <div class="hero-content px-4 py-16 sm:py-20 md:py-28 lg:py-32">
-            <div class="w-full lg:w-7/12">
-                <h1 class="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold eb-garamond text-white">We
-                    Provide Effective Legal Solutions</h1>
-                <p class="mb-6 poppins text-gray-300 text-sm sm:text-base">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour. </p>
-
-                <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
-                    <input type="text" placeholder="Search your services"
-                        class=" mx-2 input input-bordered w-full max-w-xs sm:max-w-md lg:max-w-lg" />
-
-                    <button class="btn text-white bg-brown border-0 poppins">Search</button>
+    <div class="py-4 px-4 lg:px-8">
+        <div class="container mx-auto h-full hero rounded-lg text-neutral-content text-center bg-cover sm:bg-contain"
+            style="background: linear-gradient(180.00deg,rgba(17, 17, 17, 0), rgb(17, 17, 17) 100%), url('./images/banner.png'); background-position: center;">
+            <div class="hero-content px-4 py-16 sm:py-20 md:py-28 lg:py-32">
+                <div class="w-full max-w-[90%] sm:max-w-[80%] lg:max-w-[60%] mx-auto">
+                    <h1 class="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold eb-garamond text-white">
+                        We Provide Effective Legal Solutions
+                    </h1>
+                    <p class="mb-6 poppins text-gray-300 text-sm sm:text-base">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                    <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+                        <input type="text" placeholder="Search your services"
+                            class="mx-2 input input-bordered w-full max-w-xs sm:max-w-md lg:max-w-lg" />
+                        <button class="btn text-white bg-brown border-0 poppins">Search</button>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
+
+
 
 
     <div class="container mx-auto px-4 py-10 lg:py-20 text-center">
         <h1 class="eb-garamond mb-4 text-2xl sm:text-3xl md:text-4xl font-bold">The Legal Practice Area</h1>
-        <p class="max-w-2xl mx-auto poppins text-gray-500 text-sm sm:text-base">There are many variations of passages of Lorem Ipsum
+        <p class="max-w-2xl mx-auto poppins text-gray-500 text-sm sm:text-base">There are many variations of passages of
+            Lorem Ipsum
             available, but the majority have suffered alteration in some form, by injected humour.</p>
     </div>
 </body>
